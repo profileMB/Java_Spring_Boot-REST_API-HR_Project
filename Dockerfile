@@ -9,8 +9,8 @@ COPY src ./src
 # Exécutez le build Maven, sautez les tests pour accélérer le processus de build du conteneur
 RUN mvn clean package -DskipTests
 
-# Étape 2 : Image finale, runtime OpenJDK
-FROM openjdk:17-jdk-slim
+# Étape 2 : Image finale avec Temurin (JDK 17)
+FROM eclipse-temurin:17-jdk-jammy
 
 WORKDIR /app
 
