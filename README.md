@@ -8,19 +8,25 @@ As this web application is a public demo, to ensure the database remains "clean"
 ## Visit the site
 See the final result of the website by clicking this link : https://hrmanagement-app.onrender.com
 
+## REST API testing
+Test the REST API using Swagger UI : https://url-hr-rest-api.onrender.com/swagger-ui/index.html
+
 
 ## Video presentation
 https://github.com/user-attachments/assets/09c0dc0e-3dbf-451a-804f-bb0d8bfc4470
 
 ## Technologies used (including Web App)
 #### Programming Language :
-- Java
+- Java 17
 
 #### Frameworks and Dependencies :
 - Spring / Spring Boot
-- Spring Data JPA
 - Spring Web
+- Spring Data JPA
+- Spring Validation
+- Spring Security
 - JUnit
+- Springdoc OpenAPI
 
 #### User Interface :
 - Thymeleaf
